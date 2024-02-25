@@ -90,10 +90,9 @@ body {
 
 .b-info-discount {
   background-color: #ff6a12;
-  padding: 10px;
-  border-radius: 10%;
-  border-bottom-left-radius: 30%;
-  border-top-right-radius: 30%;
+  padding: 10px 15px;
+  border-radius: 20%;
+  border-top-right-radius: 60%;
   margin-right: 10px;
 }
 .b-info-money {
@@ -105,11 +104,113 @@ body {
 /* Aquí empieza el main*/
 
 main {
-  width: 80%;
   margin: 0 auto;
   font-family: var(--primary-font);
 }
-.main_tendencias {
+.b-main_tendencias {
   display: flex;
   align-items: center;
+  margin: 0 auto;
+  width: 80%;
+}
+.main_tendencias-title {
+  display: flex;
+  align-items: center;
+  color: white;
+  margin-top: 100px;
+  font-size: 50px;
+}
+
+.main_tendencias-title span {
+  font-size: 50px;
+}
+
+/* Aqui va la galería */
+.b-main_gallery {
+  width: 80%;
+  margin: 0 auto;
+}
+.b-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.b-galley__container {
+  width: 30%;
+  margin-bottom: 20px;
+  margin-top: 20px;
+  position: relative;
+}
+.b-galley__container img {
+  width: 100%;
+  border-radius: 10px;
+  position: relative;
+  transition: transform 0.2s;
+}
+.b-galley__container img:hover {
+  transform: scale(1.1);
+}
+.b-gallery_price {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.b-gallery-discount {
+  position: absolute;
+  top: 59%;
+  left: 0%;
+  color: white;
+  background-color: #ff6a12;
+  padding: 10px 15px;
+  border-radius: 20%;
+  border-top-right-radius: 60%;
+}
+
+/* Aqui va la parte de calidad */
+
+.b-main_quality {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 40px 20px;
+  box-sizing: border-box;
+  margin: 0 auto;
+}
+
+.b-main_quality-container {
+  display: flex;
+  align-items: center;
+}
+
+.b-main_quality-box {
+  display: flex;
+  padding: 10px;
+  align-items: center;
+}
+
+.b-main_quality-box span {
+  color: #ff6a12;
+  font-size: 70px;
+  width: 30%;
+}
+
+.b-main_quality-info {
+  display: flex;
+  flex-direction: column;
+  border-left: 1px solid lightgray;
+  height: 60px;
+  padding: 0px 10px;
+}
+.b-main_quality-title {
+  margin: 0;
+  color: white;
+}
+
+.b-main_quality-paragraph {
+  margin: 0;
+  color: white;
+  font-weight: 300;
 }
