@@ -1,0 +1,115 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: var(--primary-color);
+}
+:root {
+  --primary-color: #272727;
+  --primary-font: Roboto, sans-serif;
+}
+
+.b-header {
+  height: 100vh;
+  background-image: url(https://gaming-cdn.com/img/products/9575/hcover/9575.jpg?v=1708503564);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-attachment: fixed;
+  font-family: var(--primary-font);
+}
+
+.b-navbar-menu-img {
+  margin-left: 10px;
+}
+.b-navbar_img {
+  width: 70%;
+}
+.b-navbar {
+  display: flex;
+  justify-content: space-between;
+  height: 15vh;
+  width: 90vw;
+  margin: 0 auto;
+}
+.b-navbar-menu {
+  align-items: center;
+}
+.b-enlaces {
+  margin-left: 217px;
+  display: flex;
+  align-items: center;
+}
+.b-navbar_enlaces {
+  padding: 10px;
+  text-decoration: none;
+  margin: 10px 8px;
+  display: flex;
+  align-items: center;
+  font-size: 15px;
+  color: white;
+}
+.b-navbar_enlaces-search {
+  color: white;
+  background-color: #ff6a12;
+  padding: 12px 14px;
+  border-radius: 100%;
+}
+
+.b-navbar_right {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  margin-right: 30px;
+}
+.b-navbar_link {
+  color: white;
+  padding: 10px;
+}
+
+.--flex {
+  display: flex;
+}
+.b-info {
+  margin-top: 250px;
+  margin-left: 80px;
+}
+.b-info-title {
+  font-family: Roboto, sans-serif;
+  font-size: 50px;
+  text-transform: uppercase;
+  color: white;
+  margin: 0;
+}
+.b-info-price {
+  display: flex;
+  align-items: center;
+  margin-top: 0;
+}
+
+.b-info-discount {
+  background-color: #ff6a12;
+  padding: 10px;
+  border-radius: 10%;
+  border-bottom-left-radius: 30%;
+  border-top-right-radius: 30%;
+  margin-right: 10px;
+}
+.b-info-money {
+  color: white;
+  font-size: 50px;
+  margin: 0;
+}
+
+/* Aquí empieza el main*/
+
+main {
+  width: 80%;
+  margin: 0 auto;
+  font-family: var(--primary-font);
+}
+.main_tendencias {
+  display: flex;
+  align-items: center;
+}
