@@ -9,7 +9,7 @@ body {
 }
 
 .b-header {
-  height: 100vh;
+  height: 75vh;
   background-image: url(https://gaming-cdn.com/img/products/9575/hcover/9575.jpg?v=1708503564);
   background-size: cover;
   background-position: center;
@@ -123,6 +123,7 @@ main {
 
 .main_tendencias-title span {
   font-size: 50px;
+  color: grey;
 }
 
 /* Aqui va la galería */
@@ -159,7 +160,7 @@ main {
 
 .b-gallery-discount {
   position: absolute;
-  top: 59%;
+  top: 65%;
   left: 0%;
   color: white;
   background-color: #ff6a12;
@@ -213,4 +214,63 @@ main {
   margin: 0;
   color: white;
   font-weight: 300;
+}
+
+/* Aquí va la review */
+
+.b-main-review {
+  width: 100%;
+  background-color: #323232;
+  padding: 50px;
+  height: 10%;
+}
+
+.b-main-review_container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.b-main-review_info {
+  display: flex;
+  flex-direction: column;
+  color: grey;
+  font-family: var(--primary-font);
+  width: 70%;
+  margin-left: 40px;
+  font-size: 20px;
+}
+.b-mian-review_link {
+  width: 40%;
+  text-align: center;
+  color: white;
+  padding: 20px 40px;
+  background-color: #ff6a12;
+  text-decoration: none;
+  border-radius: 10px;
+  margin: 20px auto;
+}
+.b-main-review_info-paragraph {
+  text-align: center;
+  padding-bottom: 20px;
+}
+
+.b-main-review_rating {
+  color: #ff6a12;
+  text-align: center;
+}
+
+.b-main_pacific-info {
+  background-image: url(https://gaming-cdn.com/img/products/9575/hcover/9575.jpg?v=1708503564);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  background-attachment: fixed;
+  height: 60vh;
+  
+}
+.b-main_pacific-info-text{
+  position: relative;
+  top: 198px;
+  left: 70px;
 }
